@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RadioButtton.MainPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons">
+
+    <StackLayout Padding="20">
+        <Label Text="Select a fruit"/>
+        <syncfusion:SfRadioGroup>
+        <syncfusion:SfRadioButton Text="Papaya" 
+                 ContentSpacing="15" 
+                 IsChecked="True" 
+                 HorizontalOptions="Start"/>
+
+        <syncfusion:SfRadioButton Text="Apple"
+                 ContentSpacing="25" 
+                 IsChecked="False" 
+                 HorizontalOptions="Start"/>
+
+        <syncfusion:SfRadioButton Text="Banana"
+                 ContentSpacing="5" 
+                 IsChecked="False" 
+                 HorizontalOptions="Start"/>
+
+        <syncfusion:SfRadioButton Text="Orange"
+                 ContentSpacing="10" 
+                 IsChecked="False" 
+                 HorizontalOptions="Start"/>
+
+        <syncfusion:SfRadioButton Text="Pineapple"
+                 ContentSpacing="20" 
+                 IsChecked="False" 
+                 HorizontalOptions="Start"/>
+        </syncfusion:SfRadioGroup>
+    </StackLayout>
+    
+</ContentPage>
