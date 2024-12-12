@@ -13,24 +13,20 @@
                  HorizontalOptions="Start"/>
 
         <syncfusion:SfRadioButton Text="Apple"
-                 ContentSpacing="25" 
+                 ContentSpacing="15" 
                  IsChecked="False" 
                  HorizontalOptions="Start"/>
 
         <syncfusion:SfRadioButton Text="Banana"
-                 ContentSpacing="5" 
+                 ContentSpacing="15" 
                  IsChecked="False" 
                  HorizontalOptions="Start"/>
 
         <syncfusion:SfRadioButton Text="Orange"
-                 ContentSpacing="10" 
+                 ContentSpacing="15" 
                  IsChecked="False" 
                  HorizontalOptions="Start"/>
 
-        <syncfusion:SfRadioButton Text="Pineapple"
-                 ContentSpacing="20" 
-                 IsChecked="False" 
-                 HorizontalOptions="Start"/>
         </syncfusion:SfRadioGroup>
     </StackLayout>
     
